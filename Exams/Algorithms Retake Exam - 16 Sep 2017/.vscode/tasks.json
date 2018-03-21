@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Algorithms Retake Exam - 16 Sep 2017.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
